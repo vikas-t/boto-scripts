@@ -1,1 +1,1 @@
-##### Launch EC2 instace
+#### Launch an EC2 instance
