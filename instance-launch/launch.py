@@ -1,9 +1,8 @@
 #!/usr/bin/python
 
-# Uses boto3 APIs to fire an AWS ec2 VPC instance with user inputs
+# Uses boto3 APIs to fire an AWS EC2 VPC instance with user inputs
 # via the commandline
-# Requires: botocore, boto3
-
+# Relies upon a JSON config per region for the instance attributes
 
 import argparse
 import boto3
