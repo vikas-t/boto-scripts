@@ -1,0 +1,19 @@
+{
+"ec2_defaults": {
+    "DryRun": "False",
+    "ImageId" : "ami-b543422",
+    "MinCount" : 1,
+    "MaxCount" : 1,
+    "KeyName" : "mykey.pem",
+    "SecurityGroups" : [],
+    "SecurityGroupIds" : ["sg-124222","sg-1243224"],
+    "InstanceType" : "t2.micro",
+    "Placement": {"AvailabilityZone": "us-west-1a"},  
+    "Monitoring" : {"Enabled": "False"},
+    "SubnetId" : "subnet-1443222",
+    "DisableApiTermination" : "True",
+    "InstanceInitiatedShutdownBehavior" : "stop",
+    "EbsOptimized" : "False"
+               },
+"vpc_id": "vpc-7192342"
+}
